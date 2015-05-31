@@ -5,4 +5,10 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>HCMUT GPA analysis software</name>
+  <modules>
+  	<module>bkgpa-model</module>
+  	<module>bkgpa-interface</module>
+  	<module>bkgpa-service</module>
+  	<module>bkgpa-web</module>
+  </modules>
 </project>

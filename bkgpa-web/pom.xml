@@ -1,0 +1,16 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.tutran</groupId>
+    <artifactId>bkgpa</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>bkgpa-web</artifactId>
+  <packaging>pom</packaging>
+  <name>Web module of BKGPA</name>
+  <modules>
+  	<module>bkgpa-web-jar</module>
+  	<module>bkgpa-web-resources</module>
+  	<module>bkgpa-web-war</module>
+  </modules>
+</project>
